@@ -1,5 +1,5 @@
 {% set name = "pagerduty" %}
-{% set version = "4.1.1" %}
+{% set version = "5.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pagerduty-{{ version }}.tar.gz
-  sha256: 6dc433acaa4e140f3ba03f75e335c3493ead5dbef16e576aac5349c7ede9c60b
+  sha256: 62d893d396b10e0fc21e7a947373efcf663900193393fbc3020dac341822f790
 
 build:
   entry_points:
