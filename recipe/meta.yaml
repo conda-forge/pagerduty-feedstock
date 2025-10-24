@@ -22,11 +22,8 @@ requirements:
     - setuptools
     - pip
   run:
-    - httpx
     - python >={{ python_min }}
-    - certifi
-    - requests
-    - urllib3
+    - httpx
 
 test:
   imports:
