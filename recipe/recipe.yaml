@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pagerduty
-  version: "6.2.2"
+  version: "6.3.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pagerduty-${{ version }}.tar.gz
-  sha256: c8a7ea625f72b47624decd282c925c8b7fab0568aaae7ad3bd430ce9a15c99d6
+  sha256: 80d32cd91f27214878cc91ba23eabb6d393d4a434d883936a0387a58a041e4e0
 
 build:
   number: 0
