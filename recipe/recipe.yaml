@@ -2,15 +2,15 @@ schema_version: 1
 
 context:
   name: pagerduty
-  version: "6.3.0"
+  version: "7.0.0"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pagerduty-${{ version }}.tar.gz
-  sha256: 80d32cd91f27214878cc91ba23eabb6d393d4a434d883936a0387a58a041e4e0
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  sha256: e4d644d15033a4ed3fbc77622daafce19fdeb635caaf2279e840d9b0eb51387e
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - httpx
+    - httpx2
 
 tests:
   - python:
