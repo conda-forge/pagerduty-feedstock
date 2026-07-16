@@ -27,7 +27,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - httpx
+    - httpx2
 
 tests:
   - python:
