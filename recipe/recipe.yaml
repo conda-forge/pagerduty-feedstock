@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pagerduty
-  version: "7.0.1"
+  version: "7.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 3c8e8bd0197edb10fdc4c6601ae487e262895de226ac87673a2a4292b71469b4
+  sha256: 1e5a433369364ba6ef6f3479042a31d8673f6a4adc9eb0d11abdc06a625a28c5
 
 build:
   number: 0
